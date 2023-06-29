@@ -1,0 +1,135 @@
+/* The @import rule below imports the Playfair Display and Source Sans Pro fonts into the stylesheet. You don't have to edit this line.*/
+@import url("https://fonts.googleapis.com/css2?family=Playfair+Display&family=Source+Sans+Pro:wght@400&display=swap");
+
+body {
+  color: #003049;
+  background-color: #eae2b7;
+  font-family: "Source Sans Pro", Tahoma, Geneva, Verdana, sans-serif;
+  padding: 40px;
+}
+
+/* Set the font family for h1, h2, and h3 heading */
+h1,
+h2,
+h3 {
+  font-family: "Playfair Display", Times, serif;
+  text-align: center;
+}
+
+article {
+  padding: 50px 0;
+}
+
+article div {
+  text-align: center;
+  width: 100%;
+}
+
+p {
+  line-height: 1.5;
+}
+
+/* The div container constrains the content width within the main container to 600px */
+div {
+  margin: auto;
+  width: 600px;
+}
+
+img {
+  width: 100%;
+  max-width: 200px;
+  height: auto;
+}
+
+hr {
+  border: 1px solid black;
+}
+
+/* Add your solution below */
+
+/* h2 {
+  font-size: 28px;
+} */
+
+header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* The Header Section - Align the links */
+nav ul {
+  list-style-type: none;
+  display: flex;
+  justify-content: center;
+}
+
+nav li {
+  margin: 0 11px;
+}
+
+/* Make all the hyperlinks red */
+a {
+  color: #d62828;
+}
+
+/* Hover the hyperlinks to turn orange */
+a:hover {
+  color: #f77f00;
+}
+
+/* About Section - Move image to the left side for text on the right */
+div .image-circle {
+  float: left;
+  margin-right: 120px;
+}
+
+/* Make the image rounded with a light blue border */
+.image-circle {
+  border-radius: 50%;
+  border: 2px solid #003049;
+  height: 13.3rem;
+}
+
+.portfolio {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 50px 0;
+}
+
+.flexbox {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+}
+
+.column {
+  flex: 1;
+  margin: 15px;
+  /* padding: 5px; */
+}
+
+/* Font size for the project descriptions */
+.column p {
+  font-size: 14px;
+}
+
+p {
+  line-height: 1.5;
+}
+
+/* Portfolio - Heading 3 */
+#portfolio {
+  margin-bottom: -30px;
+}
+
+/* Below the portfolio section */
+hr {
+  margin-bottom: 80px;
+}
+
+/* Add space and center the footer section below the contact section */
+footer p {
+  margin-top: 80px;
+  text-align: center;
+}
